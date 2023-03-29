@@ -59,7 +59,7 @@ router.put('/:id', (req, res) => {
       category_name: req.body.category_name,
     },
     {
-      // Gets the books based on the isbn given in the request parameters
+      // Gets the books based on the id given in the request parameters
       where: {
         id: req.params.id,
       },
